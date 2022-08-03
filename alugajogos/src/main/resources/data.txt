@@ -3,7 +3,7 @@ INSERT INTO roles (id, name) VALUES
 (2, 'ROLE_USER');
 
 INSERT INTO users (id, email, password, first_name, last_name) VALUES
-(1, 'admin@alugajogos.com', '$2a$10$moTjfAVBJzNS32q7NPPVh.iAGDbZSkjZJBkdxT5ZLKQ3R1Vh/y9Fi', 'Admin', 'admin');
+(1, 'admin@alugajogos.com', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.', 'Admin', 'admin');
 
 insert into user_role(user_id, role_id) values
 (1,1),
