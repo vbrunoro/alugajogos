@@ -47,6 +47,7 @@ public class User {
     
 
 	public User(User user){
+		//this.id = user.getId();
 		this.firstName = user.getFirstName();
 		this.lastName = user.getLastName();
 		this.email = user.getEmail();
@@ -54,11 +55,11 @@ public class User {
 		this.roles = user.getRoles();
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
