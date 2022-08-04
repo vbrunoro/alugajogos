@@ -9,13 +9,13 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Document</title>
+    <title>AlugaJogos</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img th:src="@{/images/logo.png}"  src="../static/images/logo.png" width="auto" height="40" class="d-inline-block align-top" alt=""/>
+            <img th:src="@{/images/logo2.png}"  src="../static/images/logo2.png" width="auto" height="40" class="d-inline-block align-top" alt=""/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,27 +37,27 @@
     </div>
 </nav>
 <div class="jumbotron text-center">
-    <h1 class="display-4">Welcome back, Admin</h1>
-    <p>Easily manage your data from this admin <mark>CMS</mark></p>
+    <h1 class="display-4">Painel Admin</h1>
+    <p></p>
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 pt-3" >
+        <div class="col-sm-4 pt-3" >
             <div class="card" style="background-color:white;">
                 <div class="card-body">
-                    <h4 class="card-title">Categories</h4>
-                    <p class="card-text">Manage the categories section here.</p>
-                    <a href="#" th:href="@{/admin/categories}" class="card-link btn btn-primary">Manage</a>
+                    <h4 class="card-title">Categorias</h4>
+                    <p class="card-text">Gerencie as categorias de produtos aqui.</p>
+                    <a href="#" th:href="@{/admin/categories}" class="card-link btn btn-primary">Gerir</a>
 
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 pt-3" >
+        <div class="col-sm-4 pt-3" >
             <div class="card" style="background-color:white;">
                 <div class="card-body">
-                    <h4 class="card-title">Products</h4>
-                    <p class="card-text">Manage all the products here.</p>
-                    <a href="#" th:href="@{/admin/products}" class="card-link btn btn-primary">Manage</a>
+                    <h4 class="card-title">Produtos</h4>
+                    <p class="card-text">Gerencie os produtos aqui.</p>
+                    <a href="#" th:href="@{/admin/products}" class="card-link btn btn-primary">Gerir</a>
 
                 </div>
             </div>
