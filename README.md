@@ -1,6 +1,6 @@
 # AlugaJogos
 
-AlugaJogos é um site de uma loja fictícia de aluguel de jogos de tabuleiro. O site serve como um local para mostrar o acervo da loja, bem como para que um cliente possa fazer a reserva de um jogo que queira alugar da mesma.
+AlugaJogos é um site para uma loja fictícia de aluguel de jogos de tabuleiro. O site serve como um local para mostrar o acervo da loja, bem como para que um cliente possa fazer a reserva de um jogo que queira alugar da mesma.
 
 ## Ferramentas
 
