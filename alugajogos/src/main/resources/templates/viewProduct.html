@@ -61,11 +61,12 @@
         <div class="col-sm-7 mt-5">
             <h2 th:text="${product.name}"></h2>
             <p th:text="${product.category.name}"></p>
-            <h2>R$ <span th:text="${#numbers.formatDecimal(product.price, 0, 'POINT', 2, 'COMMA')}"></span></h2>
-            <h5>Peso:
+            <h5 th:text="${product.description}"></h5>
+            <h4>R$ <span th:text="${#numbers.formatDecimal(product.price, 0, 'POINT', 2, 'COMMA')}"></span></h4>
+            <!-- <h5>Peso:
                 <span th:text="${product.weight}"></span> g.
-            </h5>
-            <p th:text="${product.description}"></p>
+            </h5> -->
+
             <a href="" th:href="@{/addToCart/{id}(id = ${product.id})}" class="btn btn-primary">Adicionar para o carrinho</a>
         </div>
     </div>

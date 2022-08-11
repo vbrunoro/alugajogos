@@ -47,7 +47,7 @@ public class OrderController {
 
             GlobalData.cart.clear();
         }else{
-
+            GlobalData.cart.clear();
         }
     
         return "orderPlaced";
