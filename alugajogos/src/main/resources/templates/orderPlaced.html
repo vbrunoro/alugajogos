@@ -42,9 +42,6 @@
                 <li class="nav-item active">
                     <a class="nav-link" th:href="@{/cart}" href="#">carrinho</a>
                 </li>
-<!--                <li class="nav-item active">-->
-<!--                    <span class="nav-link" th:text="${cartCount}">0</span>-->
-<!--                </li>-->
             </ul>
 
         </div>
@@ -59,31 +56,14 @@
                     <br>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 text-right">
-                    <p>
-                        <em>Recibo: # 313</em>
-                    </p>
                 </div>
             </div>
             <div class="row">
                 <div class="text-center">
                     <h1>Reserva confirmada!</h1>
+                    <a class="nav-link" th:href="@{/shop}" href="#">voltar para os jogos</a>
                 </div>
-<!-- 
-                <table class="table table-hover">
-                    <thead>
-                    <tr>
-                        <th>Components</th>
-                    </tr>
-                    </thead>
-                    <tbody>
 
-                    <tr th:each="entry : ${parameters}">
-
-                        <td th:text="${entry.key} + '  : -  ' + ${entry.value}"></td>
-
-                    </tr>
-                    </tbody>
-                </table> -->
             </div>
         </div>
     </div>
