@@ -21,6 +21,12 @@ import com.example.alugajogos.model.User;
 import com.example.alugajogos.repository.RoleRepository;
 import com.example.alugajogos.repository.UserRepository;
 
+/**
+ * Faz a configuração para o uso da autenticação via Google
+ * 
+ * 
+ *
+ */
 @Component
 public class GoogleOAuth2SuccessHandler implements AuthenticationSuccessHandler{
 
