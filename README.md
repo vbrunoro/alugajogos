@@ -35,9 +35,11 @@ mvnw spring-boot:run
 
 O site iniciará em `localhost:8080`
 Para acessar o banco de dados, entre como admin
+
 Usuário: `admin@alugajogos.com`
 Senha: `admin`
 
-E acesse `http://localhost:8080/h2-console/`
+e acesse `http://localhost:8080/h2-console/`
 
 ## Documentação
+A documentação do projeto encontra-se na pasta javadocs, podendo ser acessada a partir do index.html contido nela.
