@@ -22,6 +22,12 @@ import com.example.alugajogos.model.Product;
 import com.example.alugajogos.service.CategoryService;
 import com.example.alugajogos.service.ProductService;
 
+/**
+ * Controla a página do admin.
+ * 
+ * Controla as operações de adicionar, editar e remover produtos.
+ */
+ 
 
 @Controller
 public class AdminController {

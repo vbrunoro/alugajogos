@@ -6,6 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Define a categoria de um produto.
+ * 
+ * 
+ */
 
 @Entity
 public class Category {

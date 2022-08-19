@@ -9,6 +9,12 @@ import org.springframework.stereotype.Service;
 import com.example.alugajogos.model.Product;
 import com.example.alugajogos.repository.ProductRepository;
 
+/**
+ * Define a lógica de serviço de um produto.
+ * 
+ * 
+ */
+
 @Service
 public class ProductService {
 	

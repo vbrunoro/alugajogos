@@ -9,6 +9,11 @@ import org.springframework.stereotype.Service;
 import com.example.alugajogos.model.Category;
 import com.example.alugajogos.repository.CategoryRepository;
 
+/**
+ * Define a lógica de serviço de uma categoria.
+ * 
+ * 
+ */
 
 @Service
 public class CategoryService {

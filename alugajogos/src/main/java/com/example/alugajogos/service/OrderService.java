@@ -6,6 +6,12 @@ import org.springframework.stereotype.Service;
 import com.example.alugajogos.model.Order;
 import com.example.alugajogos.repository.OrderRepository;
 
+/**
+ * Define a lógica de serviço de um pedido.
+ * 
+ * 
+ */
+
 @Service
 public class OrderService {
 	

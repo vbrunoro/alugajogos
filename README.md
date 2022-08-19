@@ -1,6 +1,6 @@
 # AlugaJogos
 
-AlugaJogos é um site para uma loja fictícia de aluguel de jogos de tabuleiro. O site serve como um local para mostrar o acervo da loja, bem como para que um cliente possa fazer a reserva de um jogo que queira alugar da mesma.
+AlugaJogos é um site para uma loja fictícia de aluguel de jogos de tabuleiro. O site serve como um local para que o vendedor mostrar o acervo da loja, bem como para que um cliente possa fazer a reserva de um jogo que queira alugar da mesma.
 
 ## Ferramentas
 
@@ -8,7 +8,7 @@ Esse projeto foi desenvolvido usando as seguintes ferramentas:
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Thymeleaf](https://www.thymeleaf.org/)
-- [Bootstrao](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [H2 Database Engine](https://www.h2database.com/html/main.html)
 - [Maven](https://maven.apache.org/)
 

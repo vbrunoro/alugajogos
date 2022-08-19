@@ -1,0 +1,8 @@
+com.example.alugajogos
+com.example.alugajogos.configuration
+com.example.alugajogos.controller
+com.example.alugajogos.dto
+com.example.alugajogos.global
+com.example.alugajogos.model
+com.example.alugajogos.repository
+com.example.alugajogos.service

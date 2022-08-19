@@ -19,6 +19,13 @@ import com.example.alugajogos.model.User;
 import com.example.alugajogos.repository.RoleRepository;
 import com.example.alugajogos.repository.UserRepository;
 
+/**
+ * Controla a página de registro e de login dos usuários.
+ * 
+ * 
+ */
+ 
+
 @Controller
 public class LoginController {
 	@Autowired

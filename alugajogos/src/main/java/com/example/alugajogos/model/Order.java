@@ -6,6 +6,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Define os elementos para gerar um aluguel de um produto.
+ * 
+ * 
+ */
+
 @Entity 
 @Table(name = "orders")
 public class Order {

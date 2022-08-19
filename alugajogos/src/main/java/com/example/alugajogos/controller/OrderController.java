@@ -16,6 +16,12 @@ import com.example.alugajogos.repository.OrderRepository;
 import com.example.alugajogos.repository.UserRepository;
 import com.example.alugajogos.service.OrderService;
 
+/**
+ * Controla a página de reserva do produto.
+ * 
+ * Salva o pedido no banco de dados.
+ */
+
 @Controller
 public class OrderController {
 
@@ -26,12 +32,11 @@ public class OrderController {
     @Autowired
     UserRepository userRepository;
    
+    
    
     @PostMapping("/pagamento")
-
     public String orderPayment(@ModelAttribute("order") Order order, Model model){
-    	    
-    	     	
+    	         	
         order.setSubtotal(GlobalData.cart.stream().mapToDouble(Product::getPrice).sum());
         model.addAttribute("total", GlobalData.cart.stream().mapToDouble(Product::getPrice).sum());
         Optional<User> user = userRepository.findUserByEmail(order.getEmail());

@@ -10,6 +10,14 @@ import com.example.alugajogos.global.GlobalData;
 import com.example.alugajogos.service.CategoryService;
 import com.example.alugajogos.service.ProductService;
 
+
+/**
+ * Controla a página de visualização dos produtos pelo usuário.
+ * 
+ * Controla a operação de leitura dos produtos por categoria.
+ */
+ 
+
 @Controller
 public class HomeController {
 
@@ -17,14 +25,6 @@ public class HomeController {
     private CategoryService categoryService;
     @Autowired
     private ProductService productService;
-
-    // @GetMapping({"/","/home"})
-    // public String home(Model model){
-    	
-    //     model.addAttribute("cartCount",GlobalData.cart.size());
-
-    //     return "index";
-    // }
 
     @GetMapping({"/","/home","/shop"})
     public String shop(Model model){

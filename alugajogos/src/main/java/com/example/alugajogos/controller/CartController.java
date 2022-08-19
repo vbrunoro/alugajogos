@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.example.alugajogos.global.GlobalData;
 import com.example.alugajogos.model.Product;
 import com.example.alugajogos.service.ProductService;
+
 /**
  * Controla o página do carrinho, adicionando ou removendo itens para ele.
  * 
  * Calcula o total e prepara para o checkout.
  */
+
 @Controller
 public class CartController {
 	

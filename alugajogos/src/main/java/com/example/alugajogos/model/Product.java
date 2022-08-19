@@ -8,6 +8,12 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+/**
+ * Define um produto.
+ * 
+ * 
+ */
+
 @Entity
 public class Product {
 	@Id

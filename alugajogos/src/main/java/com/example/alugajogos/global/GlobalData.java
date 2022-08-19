@@ -5,6 +5,12 @@ import java.util.List;
 
 import com.example.alugajogos.model.Product;
 
+/**
+ * Provê o carrinho para todo o sistema.
+ * 
+ * 
+ */
+
 public class GlobalData {
     
 	public static List<Product> cart;
